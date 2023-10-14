@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "snackbot"
+version = "0.1.0"
+description = ""
+authors = ["amaheshwari01 <acoding2007@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+twilio = "^8.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
